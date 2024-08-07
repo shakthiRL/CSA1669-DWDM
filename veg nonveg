@@ -1,0 +1,18 @@
+# Step 1: Create the data frame
+persons <- data.frame(
+  Name = c("Alice", "Bob", "Charlie", "David", "Eve", "Frank", "Grace", "Heidi", "Ivan", "Judy"),
+  Vegetarian = c("Yes", "No", "Yes", "No", "Yes", "No", "Yes", "No", "Yes", "No")
+)
+
+# Step 2: Count vegetarians and non-vegetarians
+veg_counts <- table(persons$Vegetarian)
+veg_counts
+
+# Step 3: Determine which count is greater
+if (veg_counts["Yes"] > veg_counts["No"]) {
+  cat("There are more vegetarians.\n")
+} else if (veg_counts["Yes"] < veg_counts["No"]) {
+  cat("There are more non-vegetarians.\n")
+} else {
+  cat("The number of vegetarians and non-vegetarians is equal.\n")
+}
