@@ -1,0 +1,15 @@
+age <- c(30, 57, 68, 96, 39, 40, 20, 19, 42, 12, 25, 25, 65, 35, 30, 23, 23, 35, 45, 85)
+
+# Calculate the mean
+mean_age <- mean(age)
+mean_age# Speed values
+
+speed <- c(78.3, 81.8, 82, 742, 83.4, 84.5, 82.9, 77.5, 80.9, 706)
+
+# Calculate the IQR
+iqr_speed <- IQR(speed)
+iqr_speed
+
+# Calculate the standard deviation
+sd_speed <- sd(speed)
+sd_speed
