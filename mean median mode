@@ -1,0 +1,11 @@
+pencils <- c(12, 15, 12, 18, 20, 18, 15, 25, 30, 18, 15, 12, 20, 25, 18)
+
+mean_pencils <- mean(pencils)
+mean_pencils
+
+median_pencils <- median(pencils)
+median_pencils
+
+
+mode_pencils <- get_mode(pencils)
+mode_pencils
